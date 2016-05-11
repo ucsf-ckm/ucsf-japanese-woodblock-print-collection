@@ -1,193 +1,189 @@
 
-
-body 
-{
-font-family:Verdana, Arial, Helvetica, sans-serif;
-font-size:1.0em;
-	color:#310608;
-	background-color: #EFE8C8;
-	margin: 0px;
-	padding: 0px;
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 1.0em;
+    color: #310608;
+    background-color: #EFE8C8;
+    margin: 0px;
+    padding: 0px;
 }
 
-#centered
-{
-	width: 800px;
-	margin: 0px auto;
-background-image:url(../images/main_back.jpg);
-background-repeat:repeat-y;
+#centered {
+    width: 800px;
+    margin: 0px auto;
+    background-image: url(../images/main_back.jpg);
+    background-repeat: repeat-y;
 }
 
-#theme_intro_centered
-{
-width: 800px;
-margin: 0px auto;
-background-image:url(../images/theme_back.jpg);
-background-repeat:repeat-y;
+#theme_intro_centered {
+    width: 800px;
+    margin: 0px auto;
+    background-image: url(../images/theme_back.jpg);
+    background-repeat: repeat-y;
 }
 
 /* Star HTML Hack that only IE6 sees so that the background is moved up to close a gap
    in that browser. */
-* html #maincontent
-{
-width: 800px;
-background-image:url(../images/background.jpg);
-background-repeat:no-repeat;
-position:relative;
-top:-16px;
+* html #maincontent {
+    width: 800px;
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+    top: -16px;
 }
 
-#maincontent, #indexcontent
-{
-width: 800px;
-background-image:url(../images/background.jpg);
-background-repeat:no-repeat;
+#maincontent, #indexcontent {
+    width: 800px;
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
 }
 
 /* Star HTML Hack that only IE6 sees so that the background is moved up to close a gap
    in that browser. */
-* html #theme_intro_content
-{
-width: 800px;
-background-image:url(../images/theme_background.jpg);
-background-repeat:no-repeat;
-position:relative;
-top:-16px;
+* html #theme_intro_content {
+    width: 800px;
+    background-image: url(../images/theme_background.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+    top: -16px;
 }
 
-#theme_intro_content
-{
-width: 800px;
-background-image:url(../images/theme_background.jpg);
-background-repeat:no-repeat;
+#theme_intro_content {
+    width: 800px;
+    background-image: url(../images/theme_background.jpg);
+    background-repeat: no-repeat;
 }
 
-div.clear
-{
-clear: both;
+div.clear {
+    clear: both;
 }
 
 .phome {
-font-family:"Times New Roman", Times, serif;
-font-size:1.1em;
-line-height:1.35em;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.1em;
+    line-height: 1.35em;
 }
 
 p, li.terms {
-font-family:Verdana, Arial, Helvetica, sans-serif;
-font-size:.75em;
-color:#000000;
-line-height:1.3em;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: .75em;
+    color: #000000;
+    line-height: 1.3em;
 }
 
 .p2 {
-font-family:Verdana, Arial, Helvetica, sans-serif;
-font-size:1.3em;
-color:#6e1015;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    color: #6e1015;
 }
 
 .p3 {
-font-family:Verdana, Arial, Helvetica, sans-serif;
-font-size:.6em;
-color:#000000;
-line-height:1.2em;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: .6em;
+    color: #000000;
+    line-height: 1.2em;
 }
 
 .float-left {
-float: left;
+    float: left;
 }
 
 .float-right {
-float: right;
+    float: right;
 }
 
 .p4 {
-font-family:Verdana, Arial, Helvetica, sans-serif;
-font-size:.9em;
-color:#000000;
-line-height:1.3em;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: .9em;
+    color: #000000;
+    line-height: 1.3em;
 }
 
 h2 {
-font-family:"Times New Roman", Times, serif;
-font-size:16px;
-color: #6e1015;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
+    color: #6e1015;
 }
 
 h3 {
-font-family:Verdana, Arial, Helvetica, sans-serif;
-font-size:12px;
-color: #397411;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #397411;
 }
 
 div#footer {
-background-color:#666666;
-margin-top: 0px;
-padding-top: 0px;
-width: 800px;
-height: 44px;
+    background-color: #666666;
+    margin-top: 0px;
+    padding-top: 0px;
+    width: 800px;
+    height: 44px;
 }
 
 div#footercontent {
-width:336px;
-font-family:Verdana, Arial, Helvetica, sans-serif;
-font-size:10px;
-color:#FFFFFF;
-padding:15px 0 0 40px;
-float:left;
+    width: 336px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: #FFFFFF;
+    padding: 15px 0 0 40px;
+    float: left;
 }
 
 div#footerlinks {
-width:160px;
-font-family:Verdana, Arial, Helvetica, sans-serif;
-font-size:10px;
-color:#FFFFFF;
-padding:15px 0 0 0px;
-float:left;
+    width: 160px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: #FFFFFF;
+    padding: 15px 0 0 0px;
+    float: left;
 }
 
 div#footerlinks a:link {
-text-decoration:none;
+    text-decoration: none;
 }
 
 div#footerlinks a:hover {
-text-decoration:underline !important;
+    text-decoration: underline !important;
 }
 
 div#footerlinks a:visited {
-text-decoration:none;
+    text-decoration: none;
 }
 
 div#footerlinks a:active {
-text-decoration:none;
+    text-decoration: none;
 }
 
 div#footerlogo {
-width:200px;
-float:right;
+    width: 200px;
+    float: right;
 }
 
-.top-left-image-contag
-{
-float:left; margin:0 0.1em 0.1em 0; border:none;
+.top-left-image-contag {
+    float: left;
+    margin: 0 0.1em 0.1em 0;
+    border: none;
 }
 
-.top-right-image-contag
-{
-float:right; margin:0 0 0.1em 0.1em; border:none;
+.top-right-image-contag {
+    float: right;
+    margin: 0 0 0.1em 0.1em;
+    border: none;
 }
 
-.top-left-image
-{
-float:left; margin:0 1.0em 1.0em 0; border:none;
+.top-left-image {
+    float: left;
+    margin: 0 1.0em 1.0em 0;
+    border: none;
 }
 
-.top-right-image
-{
-float:right; margin:0 0 1.0em 1.0em; border:none;
+.top-right-image {
+    float: right;
+    margin: 0 0 1.0em 1.0em;
+    border: none;
 }
 
-.right-image
-{
-float:right; margin:0.5em 0 1.0em 1.0em; border:none;
+.right-image {
+    float: right;
+    margin: 0.5em 0 1.0em 1.0em;
+    border: none;
 }

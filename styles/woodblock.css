@@ -1,66 +1,80 @@
-#results-status {display:none}
-#search-within-inner {display:none}
-#search-narrow {display:none}
-#breadcrumbs {display:none}
-
-#results-grid, #results, #image-simple, #image-complex, #metadata
-{
-width: 800px;
-margin: 0px auto;
-background-image: url('../images/search_results_background.jpg');
-background-position: center top;
-background-repeat: no-repeat;
-background-color: #F0F0CE;
+#results-status {
+    display: none
 }
 
-#results-grid .citation, .display, .hitcount, .pages-results, .pages-prev, .pages-next
-{
-font-family:Verdana, Arial, Helvetica, sans-serif;
-font-size:1.0em;
-color:#000000;
-line-height:15px;
+#search-within-inner {
+    display: none
 }
 
-#content, #error
-{
-margin-left: 22px;
-margin-right: 22px;
-margin-top: -10px;
+#search-narrow {
+    display: none
 }
 
-#multi-use
-{
-display: none;
-margin-left: 22px;
-padding-top: 5px;
+#breadcrumbs {
+    display: none
 }
 
-#header-secondary 
-{
-padding-top: 0px;
+#results-grid, #results, #image-simple, #image-complex, #metadata {
+    width: 800px;
+    margin: 0px auto;
+    background-image: url('../images/search_results_background.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-color: #F0F0CE;
 }
 
-body
-{
-background: #EFE8C8; 
+#results-grid .citation, .display, .hitcount, .pages-results, .pages-prev, .pages-next {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 1.0em;
+    color: #000000;
+    line-height: 15px;
 }
 
-.nifty1 div, .rtop *, .artop * 
-{
-z-index: -1;
+#content, #error {
+    margin-left: 22px;
+    margin-right: 22px;
+    margin-top: -10px;
 }
 
-.metadata-text p 
-{
-font-size: 1.0em;
+#multi-use {
+    display: none;
+    margin-left: 22px;
+    padding-top: 5px;
 }
 
-.printBody {background: #FFF;}
-.box1 {background: transparent; border: #006;}
-.metadata-text {background: #F0F0CE;}
-a:visited, a:link {text-decoration: underline;}
+#header-secondary {
+    padding-top: 0px;
+}
 
+body {
+    background: #EFE8C8;
+}
+
+.nifty1 div, .rtop *, .artop * {
+    z-index: -1;
+}
+
+.metadata-text p {
+    font-size: 1.0em;
+}
+
+.printBody {
+    background: #FFF;
+}
+
+.box1 {
+    background: transparent;
+    border: #006;
+}
+
+.metadata-text {
+    background: #F0F0CE;
+}
+
+a:visited, a:link {
+    text-decoration: underline;
+}
 
 .block {
-	display: block;
+    display: block;
 }

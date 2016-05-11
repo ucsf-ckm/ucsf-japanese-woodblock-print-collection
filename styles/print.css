@@ -1,29 +1,35 @@
 html {
-width:100%
+    width: 100%
 }
+
 body {
-background: white;
-font-size: 12pt;
+    background: white;
+    font-size: 12pt;
 }
+
 img {
-border: 0;
+    border: 0;
 }
+
 /* Hide Various Elements when printing */
 #results-status, #search-within-inner, #search-narrow, #breadcrumbs, #navcontainer,
 #main_nav, #footer, #side_nav, h2 {
-display: none;
+    display: none;
 }
+
 /* Link Management */
 a:link, a:visited {
-color: #FF0000;
-background: transparent;
-font-weight: bold;
-text-decoration: underline;
+    color: #FF0000;
+    background: transparent;
+    font-weight: bold;
+    text-decoration: underline;
 }
+
 .primary a:link:after, #content a:visited:after {
-content: " (" attr(href) ") ";
-font-size: 90%;
+    content: " (" attr(href) ") ";
+    font-size: 90%;
 }
+
 .primary a[href^="/"]:after {
-content: " (http://asian-staging.library.ucsf.edu" attr(href) ") ";
+    content: " (http://asian-staging.library.ucsf.edu" attr(href) ") ";
 }
