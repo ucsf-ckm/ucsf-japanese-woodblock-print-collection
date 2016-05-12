@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 
-<brand owner="leslie.kleinberg@ucsf.edu" href="woodblock.xml" multi-use="default-breadcrumb">
+<brand owner="LibraryWeb@ucsf.edu" href="woodblock.xml" multi-use="default-breadcrumb">
   <links>
     <!-- link to the entry .css file; CHANGE THIS TO YOUR PROJECT'S ENTRY .css FILE, which includes the default.css -->
     <link rel="stylesheet" href="http://asian.library.ucsf.edu/styles/woodblock-entry.css" type="text/css" xmlns="http://www.w3.org/1999/xhtml" />
