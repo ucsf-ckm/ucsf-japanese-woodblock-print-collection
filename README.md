@@ -1,6 +1,6 @@
 ### About 
 
-This repository holds the source code of [UCSF's Japanese Woodblock Print Collection](http://asian.library.ucsf.edu/) 
+This repository holds the source code of [UCSF's Japanese Woodblock Print Collection](http://japanesewoodblockprints.library.ucsf.edu/) 
 website.
 
 ### Requirements
