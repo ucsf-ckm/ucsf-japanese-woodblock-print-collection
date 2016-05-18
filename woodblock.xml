@@ -32,6 +32,7 @@
       ['_trackPageview'],
       ['t2._setAccount', 'UA-552286-27'],
       ['t2._setDomainName', '.library.ucsf.edu'],
+      ['t2._setCustomVar', 1, 'cdl-institution', '', 3],
       ['t2._trackPageview']
       );
     (function() {
