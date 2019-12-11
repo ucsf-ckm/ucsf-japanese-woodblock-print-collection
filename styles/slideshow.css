@@ -1,0 +1,31 @@
+/* Simple CSS slideshow for the landing page.
+ * Pretty much lifted from https://snook.ca/archives/html_and_css/simplest-css-slideshow
+ */
+@keyframes fade {
+    0% { opacity: 0; }
+    11.11% { opacity: 1; }
+    33.33% { opacity: 1; }
+    44.44% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+.slideshow div {
+    opacity:0;
+    animation-name: fade;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+    position:absolute;
+    left:0;
+    right:0;
+}
+
+.slideshow div:nth-child(1) { animation-delay: 0s; }
+.slideshow div:nth-child(2) { animation-delay: 3s; }
+.slideshow div:nth-child(3) { animation-delay: 6s; }
+
+.slideshow img { height: 194px; }
+
+.slideshow-wrapper {
+    position: relative;
+    height: 194px;
+}
