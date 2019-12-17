@@ -2,15 +2,16 @@
  * Pretty much lifted from https://snook.ca/archives/html_and_css/simplest-css-slideshow
  */
 @keyframes fade {
-    0% { opacity: 0; }
-    11.11% { opacity: 1; }
-    33.33% { opacity: 1; }
-    44.44% { opacity: 0; }
-    100% { opacity: 0; }
+    0% {  opacity: 0; visibility: hidden; }
+    11.11% { opacity: 1; visibility: visible; }
+    33.33% { opacity: 1; visibility: visible; }
+    44.44% { opacity: 0; visibility: hidden; }
+    100% { opacity: 0; visibility: hidden; }
 }
 
 .slideshow div {
-    opacity:0;
+    opacity: 0;
+    visibility: hidden;
     animation-name: fade;
     animation-duration: 9s;
     animation-iteration-count: infinite;
