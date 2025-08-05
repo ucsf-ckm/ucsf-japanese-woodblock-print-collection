@@ -1,7 +1,7 @@
 @charset "ISO-8859-1";
 
 #navcontainer {
-    background-image: url(../images/nav_back.jpg);
+    background-color: #e0d9ad;
     background-repeat: no-repeat;
     width: 800px;
     height: 39px;
