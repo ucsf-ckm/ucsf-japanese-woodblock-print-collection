@@ -11,8 +11,7 @@ body {
 #centered {
     width: 800px;
     margin: 0px auto;
-    background-image: url(../images/main_back.jpg);
-    background-repeat: repeat-y;
+    background-color: #F0F0CE;
 }
 
 #theme_intro_centered {
@@ -24,7 +23,6 @@ body {
 
 #maincontent, #indexcontent {
     width: 800px;
-     background-repeat: no-repeat;
 }
 
 /* Star HTML Hack that only IE6 sees so that the background is moved up to close a gap
