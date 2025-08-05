@@ -22,20 +22,9 @@ body {
     background-repeat: repeat-y;
 }
 
-/* Star HTML Hack that only IE6 sees so that the background is moved up to close a gap
-   in that browser. */
-* html #maincontent {
-    width: 800px;
-    background-image: url(../images/background.jpg);
-    background-repeat: no-repeat;
-    position: relative;
-    top: -16px;
-}
-
 #maincontent, #indexcontent {
     width: 800px;
-    background-image: url(../images/background.jpg);
-    background-repeat: no-repeat;
+     background-repeat: no-repeat;
 }
 
 /* Star HTML Hack that only IE6 sees so that the background is moved up to close a gap
