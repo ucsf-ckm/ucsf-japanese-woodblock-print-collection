@@ -73,14 +73,6 @@
     background-position: 0 0;
 }
 
-/* 
-    Apparently this fixes a bug in IE7
-    See: http://www.builtfromsource.com/2006/10/23/a-fix-for-suckerfish-dropdowns-in-ie-7/
-*/
-#main_nav li:hover, #main_nav li.sfhover {
-    position: static;
-}
-
 #side_nav, side_nav li {
     font-family: "Times New Roman", Times, serif;
     font-size: 14px;
