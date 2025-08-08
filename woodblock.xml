@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="https://japanesewoodblockprints.library.ucsf.edu/styles/woodblock-entry.css" type="text/css" xmlns="http://www.w3.org/1999/xhtml" />
 
     <!-- Main style sheet for Japanese Woodblock -->
-    <link rel="stylesheet" href="https://japanesewoodblockprints.library.ucsf.edu/styles/ucsf_woodblock_search.css" type="text/css" media="screen" charset="utf-8" xmlns="http://www.w3.org/1999/xhtml" />
+    <link rel="stylesheet" href="https://japanesewoodblockprints.library.ucsf.edu/styles/ucsf_woodblock.css" type="text/css" media="screen" charset="utf-8" xmlns="http://www.w3.org/1999/xhtml" />
 
     <!-- Style sheet drop down menus -->
     <link rel="stylesheet" href="https://japanesewoodblockprints.library.ucsf.edu/styles/nav_woodblock.css" type="text/css" media="screen" charset="utf-8" xmlns="http://www.w3.org/1999/xhtml" />
@@ -74,11 +74,8 @@
   <footer>
     <!-- links should be target="_top" for the framed pages -->
     <div id="footer">
-    <div id="footercontent">
-    &#169;2007 The Regents of the University of California
-    </div>
-    <div id="footerlinks"><a href="https://japanesewoodblockprints.library.ucsf.edu/terms.html"><span class="style3">Terms of Use</span></a> | <a href="http://www.library.ucsf.edu/collections/archives/contact"><span class="style3">Contact Us</span></a></div>
-    <div id="footerlogo"><a href="http://www.library.ucsf.edu/" target="_top"><img src="https://japanesewoodblockprints.library.ucsf.edu/images/library_logo.jpg" alt="UCSF Library" border="0" /></a></div>
+      <div id="footerlogo"><a href="http://www.library.ucsf.edu/"><img src="images/library_logo.png" alt="UCSF Library" border="0" /></a></div>
+      <div id="footercontent"><a target="_top" href="https://ucsflibrary.zendesk.com/hc/en-us/requests/new">Contact Us</a></div>
     </div>
   </footer>
 
