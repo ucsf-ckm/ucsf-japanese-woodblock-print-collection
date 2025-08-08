@@ -64,20 +64,3 @@
     left: auto;
     background-position: 0 0;
 }
-
-#side_nav, side_nav li {
-    font-family: "Times New Roman", Times, serif;
-    font-size: 14px;
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-}
-
-#side_nav a {
-    display: inline;
-    font-size: 1.0em;
-    line-height: 2.0em;
-    text-decoration: none;
-}
-
-

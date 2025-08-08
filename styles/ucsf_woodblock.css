@@ -11,7 +11,7 @@ body {
 #centered {
     width: 800px;
     margin: 0px auto;
-    background-color: #F0F0CE;
+    background-color: white;
 }
 
 #theme_intro_centered {
@@ -46,9 +46,9 @@ p, li.terms {
 }
 
 .p2 {
-    font-family: Verdana, Arial, Helvetica, sans-serif;
-    font-size: 1.3em;
-    color: #6e1015;
+    font-family: "Crimson Text", serif;
+    font-size: 28px;
+    color: #052049;
 }
 
 .p3 {
@@ -72,16 +72,10 @@ p, li.terms {
     line-height: 1.3em;
 }
 
-h2 {
-    font-family: "Times New Roman", Times, serif;
-    font-size: 16px;
-    color: #6e1015;
-}
-
 h3 {
-    font-family: Verdana, Arial, Helvetica, sans-serif;
-    font-size: 12px;
-    color: #397411;
+    font-family: "Crimson Text", serif;
+    font-size: 22px;
+    color: #052049;
 }
 
 div#footer {

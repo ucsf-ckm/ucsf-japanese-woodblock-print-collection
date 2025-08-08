@@ -13,7 +13,7 @@ img {
 
 /* Hide Various Elements when printing */
 #results-status, #search-within-inner, #search-narrow, #breadcrumbs, #navcontainer,
-#main_nav, #footer, #side_nav, h2 {
+#main_nav, #footer {
     display: none;
 }
 
