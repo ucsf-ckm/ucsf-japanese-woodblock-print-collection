@@ -39,10 +39,10 @@ div.clear {
 }
 
 p, li.terms {
-    font-family: "Roboto Regular", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     color: #052049;
-    line-height: 30px;
+    line-height: 25px;
 }
 
 .p2 {
