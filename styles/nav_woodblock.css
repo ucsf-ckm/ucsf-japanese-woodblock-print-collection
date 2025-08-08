@@ -1,7 +1,7 @@
 @charset "ISO-8859-1";
 
 #navcontainer {
-    background-color: #e0d9ad;
+    background-color: #052049;
     width: 800px;
     height: 39px;
     float: right;
@@ -9,8 +9,9 @@
 
 #main_nav {
     list-style-type: none;
-    font-family: "Times New Roman", Times, serif;
-    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
     margin: 0;
     padding-top: .65em;
     padding-left: 80px;
@@ -19,7 +20,6 @@
 
 #main_nav ul {
     list-style-type: none;
-    font-size: 14px;
     margin: 0;
     padding-top: 1px;
     padding-left: 2px;
@@ -28,7 +28,7 @@
 
 #main_nav a {
     display: block;
-
+    color: white;
     text-decoration: none;
 }
 
@@ -48,13 +48,8 @@
 
     /* This is where you style the drop down menu's, including font, color and spacing */
 
-    font-family: "Times New Roman", Times, serif;
-    font-size: 14px;
     text-indent: 1px;
-    background-color: #e0d9ad;
-    color: #310608;
-    border: 1px solid #6e1015;
-
+    background-color: #052049;
 }
 
 #main_nav li ul li {
@@ -62,10 +57,7 @@
 }
 
 #main_nav li ul li:hover a, #main_nav li ul li.sfhover a {
-    /* This is where you style the 'on mouse over' look of the individual drop down elements. */
-    background-color: #e0d9ad;
-    color: #397411;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 #main_nav li:hover ul, #main_nav li.sfhover ul {
