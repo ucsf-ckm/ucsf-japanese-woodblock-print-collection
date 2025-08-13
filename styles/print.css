@@ -19,10 +19,8 @@ img {
 
 /* Link Management */
 a:link, a:visited {
-    color: #FF0000;
     background: transparent;
     font-weight: bold;
-    text-decoration: underline;
 }
 
 .primary a:link:after, #content a:visited:after {
