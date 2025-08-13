@@ -1,8 +1,8 @@
 
 body {
-    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 1.0em;
-    color: #310608;
+    color: #052049;
     background-color: #E6E9ED;
     margin: 0px;
     padding: 0px;
@@ -33,7 +33,6 @@ div.clear {
 }
 
 .phome {
-    font-family: "Times New Roman", Times, serif;
     font-size: 1.1em;
     line-height: 1.35em;
 }
