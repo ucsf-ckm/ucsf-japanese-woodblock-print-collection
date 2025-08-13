@@ -33,7 +33,7 @@
 
       <area shape="rect" alt="UCSF Medical Center" coords="462,9,577,22" href="https://www.ucsfhealth.org/" />
     </map>
-    <img src="https://japanesewoodblockprints.library.ucsf.edu/images/top_banner.jpg" class="banner" alt="" usemap="#ucsf" class="block" /><a href="https://japanesewoodblockprints.library.ucsf.edu"><img src="https://japanesewoodblockprints.library.ucsf.edu/images/header.jpg" alt="UCSF Japanese Woodblock Print Collection" border="0" height="88" class="block"/></a><div id="navcontainer">
+    <img src="https://japanesewoodblockprints.library.ucsf.edu/images/top_banner.jpg" class="banner" alt="" usemap="#ucsf" class="block" /><a href="https://japanesewoodblockprints.library.ucsf.edu"><img src="https://japanesewoodblockprints.library.ucsf.edu/images/header.jpg" alt="UCSF Japanese Woodblock Print Collection" class="banner"/></a><div id="navcontainer">
 
 
     <ul id="main_nav">
