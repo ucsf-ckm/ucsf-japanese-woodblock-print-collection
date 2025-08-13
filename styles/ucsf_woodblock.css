@@ -1,6 +1,6 @@
 
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
     font-size: 1.0em;
     color: #052049;
     background-color: #E6E9ED;
@@ -38,7 +38,7 @@ div.clear {
 }
 
 p, li.terms {
-    font-family: "Roboto", sans-serif;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
     font-size: 16px;
     color: #052049;
     line-height: 25px;
@@ -48,12 +48,6 @@ p, li.terms {
     font-family: "Crimson Text", serif;
     font-size: 28px;
     color: #052049;
-}
-
-.p3 {
-    font-family: Roboto, Arial, Helvetica, sans-serif;
-    color: #000000;
-    line-height: 1.5em;
 }
 
 .float-left {
