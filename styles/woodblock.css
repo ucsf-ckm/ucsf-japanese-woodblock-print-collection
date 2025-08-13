@@ -20,7 +20,7 @@
     background-image: url('../images/search_results_background.jpg');
     background-position: center top;
     background-repeat: no-repeat;
-    background-color: #F0F0CE;
+    background-color: #ffffff;
 }
 
 #results-grid .citation, .display, .hitcount, .pages-results, .pages-prev, .pages-next {
@@ -68,7 +68,7 @@ body {
 }
 
 .metadata-text {
-    background: #F0F0CE;
+    background: #ffffff;
 }
 
 a:visited, a:link {

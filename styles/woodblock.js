@@ -3,7 +3,7 @@
 window.onload = function () {
   if (!NiftyCheck())
     return;
-  Rounded("div.nifty1", "all", "transparent", "#F0F0CE", "border #006");
+  Rounded("div.nifty1", "all", "transparent", "#ffffff", "border #006");
   /*Rounded("div.nifty1","all","#EAD893","transparent","border #800");*/
   Rounded("div.nifty2", "all", "transparent", "#F2F8F8", "border #9EB8B8");
   Rounded("div.nifty3", "all", "transparent", "#FFF", "border #FCAFA0");
