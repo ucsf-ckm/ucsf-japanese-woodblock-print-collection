@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="https://japanesewoodblockprints.library.ucsf.edu/styles/more_styles.css" type="text/css" media="screen" charset="utf-8" xmlns="https://www.w3.org/1999/xhtml" />
 
     <!-- link to the .js files -->
-    <script src="https://content.cdlib.org/default/js/nifty.js" type="text/javascript" xmlns="https://www.w3.org/1999/xhtml" />
+    <script src="https://oac.cdlib.org/default/js/nifty.js" type="text/javascript" xmlns="https://www.w3.org/1999/xhtml" />
     <!-- CHANGE THE LINK TO YOUR PROJECT'S .js FILE -->
     <script src="https://japanesewoodblockprints.library.ucsf.edu/styles/woodblock.js" type="text/javascript" xmlns="https://www.w3.org/1999/xhtml" />
 
@@ -40,7 +40,7 @@
 
     <li id="active"><a href="https://japanesewoodblockprints.library.ucsf.edu" id="current">Home</a></li>
     <li><a href="https://japanesewoodblockprints.library.ucsf.edu/about.html">About the Collection </a></li>
-    <li><a href="https://content.cdlib.org/search?relation=ark%3A%2F13030%2Fkt3t1nc589&amp;style=cui&amp;brand=woodblock&amp;facet=type-tab&amp;keyword=&amp;keyword-join=and">View the Prints </a></li>
+    <li><a href="https://oac.cdlib.org/search?relation=ark%3A%2F13030%2Fkt3t1nc589&amp;style=cui&amp;brand=woodblock&amp;facet=type-tab&amp;keyword=&amp;keyword-join=and">View the Prints </a></li>
 
     <li><a href="https://japanesewoodblockprints.library.ucsf.edu/intro1.html">View by Theme </a>
     	<ul>
@@ -51,7 +51,7 @@
     				<li><a href="https://japanesewoodblockprints.library.ucsf.edu/religion.html">Religion and Health</a></li>
     			        <li><a href="https://japanesewoodblockprints.library.ucsf.edu/women.html">Women's Health</a></li>
     	</ul>
-        <li><form method="get" action="https://content.cdlib.org/search?">
+        <li><form method="get" action="https://oac.cdlib.org/search?">
               <input type="hidden" name="relation" value="ark:/13030/kt3t1nc589"/>
               <input type="hidden" name="style" value="cui"/>
               <input type="hidden" name="brand" value="woodblock"/>
@@ -80,8 +80,8 @@
   </footer>
 
   <!-- navigation arrows on the left-side of the object views -->
-  <arrow.up src="https://content.cdlib.org/default/images/blue_arrow_up.gif" width="9" height="11" border="0" />
-  <arrow.dn src="https://content.cdlib.org/default/images/blue_arrow_dn.gif" width="11" height="9" border="0" />
+  <arrow.up src="https://oac.cdlib.org/default/images/blue_arrow_up.gif" width="9" height="11" border="0" />
+  <arrow.dn src="https://oac.cdlib.org/default/images/blue_arrow_dn.gif" width="11" height="9" border="0" />
 
   <!-- the icon that says "Printable Version" -->
   <print.img src="https://japanesewoodblockprints.library.ucsf.edu/images/printable_version.gif" width="110" height="16" />
