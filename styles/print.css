@@ -28,6 +28,3 @@ a:link, a:visited {
     font-size: 90%;
 }
 
-.primary a[href^="/"]:after {
-    content: " (http://asian-staging.library.ucsf.edu" attr(href) ") ";
-}

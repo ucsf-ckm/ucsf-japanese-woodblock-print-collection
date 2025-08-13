@@ -1,11 +1,11 @@
 ### About 
 
-This repository holds the source code of [UCSF's Japanese Woodblock Print Collection](http://japanesewoodblockprints.library.ucsf.edu/) 
+This repository holds the source code of [UCSF's Japanese Woodblock Print Collection](https://japanesewoodblockprints.library.ucsf.edu/) 
 website.
 
 ### Requirements
 
-In order to build and deploy the site, you need to have [Ruby](https://www.ruby-lang.org/) and [Jekyll](http://jekyllrb.com/) installed.
+In order to build and deploy the site, you need to have [Ruby](https://www.ruby-lang.org/) and [Jekyll](https://jekyllrb.com/) installed.
 
 ### Build and Deployment
 
