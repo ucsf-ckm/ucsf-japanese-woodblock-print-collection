@@ -37,6 +37,7 @@
     float: left;
 }
 
+/* Drop down menu styles */
 #main_nav li ul {
     position: absolute;
     left: -999em;
@@ -44,16 +45,13 @@
     padding-right: 0.8em;
     clear: both;
     z-index: 100;
-
-    /* This is where you style the drop down menu's, including font, color and spacing */
-
     font-family: "Times New Roman", Times, serif;
     font-size: 14px;
     text-indent: 1px;
     background-color: #e0d9ad;
     color: #310608;
     border: 1px solid #6e1015;
-
+    line-height: 1.875rem;
 }
 
 #main_nav li ul li {

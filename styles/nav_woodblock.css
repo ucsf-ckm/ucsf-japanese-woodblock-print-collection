@@ -35,6 +35,7 @@
     float: left;
 }
 
+/* Drop down menu styles */
 #main_nav li ul {
     position: absolute;
     left: -999em;
@@ -42,9 +43,7 @@
     padding-right: 0.8em;
     clear: both;
     z-index: 100;
-
-    /* This is where you style the drop down menu's, including font, color and spacing */
-
+    line-height: 1.875rem;
     text-indent: 1px;
     background-color: #052049;
 }
