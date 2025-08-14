@@ -5,13 +5,8 @@ body {
     margin-bottom: 0px;
 }
 
-a:link, a:visited {
+a:link, a:visited, a:hover {
     color: #0071AD8;
-    text-decoration: underline;
-}
-
-a:hover {
-    color: #6e1015;
     text-decoration: underline;
 }
 
