@@ -40,7 +40,7 @@
 
     <li id="active"><a href="https://japanesewoodblockprints.library.ucsf.edu" id="current">Home</a></li>
     <li><a href="https://japanesewoodblockprints.library.ucsf.edu/about.html">About the Collection </a></li>
-    <li><a href="https://oac.cdlib.org/search?relation=ark%3A%2F13030%2Fkt3t1nc589&amp;style=cui&amp;brand=woodblock&amp;facet=type-tab&amp;keyword=&amp;keyword-join=and">View the Prints </a></li>
+    <li><a href="http://oac.cdlib.org/search?relation=ark%3A%2F13030%2Fkt3t1nc589&amp;style=cui&amp;brand=woodblock&amp;facet=type-tab&amp;keyword=&amp;keyword-join=and">View the Prints </a></li>
 
     <li><a href="https://japanesewoodblockprints.library.ucsf.edu/intro1.html">View by Theme </a>
     	<ul>
@@ -51,15 +51,14 @@
     				<li><a href="https://japanesewoodblockprints.library.ucsf.edu/religion.html">Religion and Health</a></li>
     			        <li><a href="https://japanesewoodblockprints.library.ucsf.edu/women.html">Women's Health</a></li>
     	</ul>
-        <li><form method="get" action="https://oac.cdlib.org/search?">
+        <li><form method="get" action=" https://calisphere.org/collections/108/?">
               <input type="hidden" name="relation" value="ark:/13030/kt3t1nc589"/>
               <input type="hidden" name="style" value="cui"/>
               <input type="hidden" name="brand" value="woodblock"/>
               <input type="hidden" name="facet" value="type-tab"/>
 
-              <input name="keyword" type="text" aria-label="Search terms" size="5"/>
+              <input name="rq" type="text" aria-label="Search terms" size="5"/>
               <input value="Search" type="submit"/>
-              <select name="keyword-join" aria-label="All/any search terms"><option value="and">All terms</option><option value="or">Any terms</option></select>
             </form>
         </li>
         <li><a href="https://japanesewoodblockprints.library.ucsf.edu/about.html#help">?</a></li>
