@@ -28,6 +28,10 @@ body {
     width: 800px;
 }
 
+.banner {
+    display: block;
+}
+
 div.clear {
     clear: both;
     margin-bottom: 5px;
