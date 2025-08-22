@@ -60,3 +60,19 @@
     left: auto;
     background-position: 0 0;
 }
+
+#main_nav form {
+    padding-left: 24px;
+}
+
+#main_nav  input[type="submit"] {
+    background-color: white;
+    color: #052049;
+    padding: 3px 4px;
+    border: 1px solid #9BA6B6;
+}
+
+#main_nav input[type="submit"]:hover {
+    background-color: #9BA6B6;
+    color: #052049;
+}
