@@ -40,10 +40,18 @@ p, li.terms {
     line-height: 25px;
 }
 
-.p2 {
+h2, h3 {
     font-family: "Crimson Text", serif;
-    font-size: 28px;
     color: #052049;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: 400;
+}
+
+h3 {
+    font-size: 22px;
 }
 
 .float-left {
@@ -52,12 +60,6 @@ p, li.terms {
 
 .float-right {
     float: right;
-}
-
-h3 {
-    font-family: "Crimson Text", serif;
-    font-size: 22px;
-    color: #052049;
 }
 
 div#footer {
@@ -118,4 +120,17 @@ div#footerlogo img {
     float: right;
     margin: 0.5em 0 1.0em 1.0em;
     border: none;
+}
+
+input[type="submit"] {
+    background-color: #052049;
+    color: white;
+    border: none;
+    padding: 3px 4px;
+    border: 1px solid #052049;
+}
+
+input[type="submit"]:hover {
+    background-color: white;
+    color: #052049;
 }
